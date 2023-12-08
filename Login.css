@@ -1,0 +1,142 @@
+
+  body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+    background-color: white;
+
+  }
+  f
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* align vertically as well */
+    margin: 0 auto; /* center horizontally */
+    max-width: 400px; /* set a maximum width to the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color:#86BBD8;
+    animation: slideUp 1s ease-in-out;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  } 
+  label, input, button {
+		font-size: 1.2em;
+		padding: 10px;
+		border: none;
+		background-color: #ffffff;
+		color: #0077be;
+		margin: 10px;
+		border-radius: 5px;
+		box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+		animation: fadeIn 1s ease-in;
+	}
+	button {
+		cursor: pointer;
+		background-color: #0077be;
+		color: white;
+		transition: background-color 0.5s ease-in-out;
+		animation: fadeIn 1s ease-in;
+	}
+	button:hover {
+		background-color: #004466;
+	}
+
+  h1,
+  p {
+    text-align: center;
+  }
+
+
+
+  /* Nav styles */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDDEA4;
+    height: 80px;
+    padding: 0 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-left: 40px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    color: #ff6600;
+  }
+
+
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #EDDEA4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .icon-row a {
+    color: #EDDEA4;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+
+  .copy-right {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+
+  /*  button  styles */
+  .vertical-center {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 20px;
+  }
+
+
+  /* aligns download links  */
+  .alignLinks {
+    text-align: center;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+  }
+
+  
